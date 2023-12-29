@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="myweb" />
+        <module name="ms-dal" />
+        <module name="ms-service" />
+        <module name="ms-facade" />
+        <module name="ms-model" />
+        <module name="ms-bootstrap" />
+        <module name="ms-integration" />
+        <module name="ms-test" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ms-bootstrap" options="-parameters" />
+      <module name="ms-dal" options="-parameters" />
+      <module name="ms-facade" options="-parameters" />
+      <module name="ms-integration" options="-parameters" />
+      <module name="ms-model" options="-parameters" />
+      <module name="ms-service" options="-parameters" />
+      <module name="ms-test" options="-parameters" />
+      <module name="myweb" options="-parameters" />
+    </option>
+  </component>
+</project>
