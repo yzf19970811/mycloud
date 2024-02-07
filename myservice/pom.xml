@@ -27,7 +27,7 @@
 
     <properties>
         <ms.version>1.0-SNAPSHOT</ms.version>
-        <ms.facade.version>1.0-SNAPSHOT</ms.facade.version>
+        <ms.facade.version>1.0.0-SNAPSHOT</ms.facade.version>
         <rocketmq.client.version>4.4.0</rocketmq.client.version>
         <dubbo.version>3.0.9</dubbo.version>
         <nacos.client.version>2.0.3</nacos.client.version>

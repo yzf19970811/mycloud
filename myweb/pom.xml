@@ -21,9 +21,15 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <dubbo.version>3.0.9</dubbo.version>
         <nacos.client.version>2.0.3</nacos.client.version>
+        <ms.facade.version>1.0.0-SNAPSHOT</ms.facade.version>
     </properties>
 
     <dependencies>
+        <dependency>
+            <groupId>com.kyu.app</groupId>
+            <artifactId>ms-facade</artifactId>
+            <version>${ms.facade.version}</version>
+        </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
