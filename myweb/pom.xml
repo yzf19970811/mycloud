@@ -27,6 +27,11 @@
     <dependencies>
         <dependency>
             <groupId>com.kyu.app</groupId>
+            <artifactId>mybase</artifactId>
+            <version>20240607</version>
+        </dependency>
+        <dependency>
+            <groupId>com.kyu.app</groupId>
             <artifactId>ms-facade</artifactId>
             <version>${ms.facade.version}</version>
         </dependency>

@@ -37,6 +37,11 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
+                <groupId>com.kyu.app</groupId>
+                <artifactId>mybase</artifactId>
+                <version>20240607</version>
+            </dependency>
+            <dependency>
                 <groupId>org.apache.dubbo</groupId>
                 <artifactId>dubbo-spring-boot-starter</artifactId>
                 <version>${dubbo.version}</version>
